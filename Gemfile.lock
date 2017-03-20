@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/trailblazer/reform.git
+  revision: 74f2715dc72c24e8f4721b1897fa5bbe5ae415a5
+  specs:
+    reform (2.3.0.rc1)
+      disposable (>= 0.4.2, < 0.5.0)
+      representable (>= 2.4.0, < 3.1.0)
+      uber (< 0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,9 +50,6 @@ GEM
       dry-logic (~> 0.4, >= 0.4.0)
       dry-types (~> 0.9, >= 0.9.0)
     inflecto (0.0.2)
-    reform (2.2.4)
-      disposable (>= 0.4.1)
-      representable (>= 2.4.0, < 3.1.0)
     representable (3.0.3)
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
@@ -68,7 +74,7 @@ PLATFORMS
 
 DEPENDENCIES
   dry-validation
-  reform
+  reform!
   rspec
 
 RUBY VERSION
