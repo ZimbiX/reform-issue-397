@@ -1,10 +1,4 @@
-require 'bundler/setup'
-Bundler.require :default
-
 require 'rspec'
-require 'dry/logic'
-require 'dry/logic/predicates'
-require 'dry-validation'
 require 'reform'
 require 'reform/form/dry'
 Reform::Form.send :feature, Reform::Form::Dry
